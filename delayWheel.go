@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/saweima12/delaywheel/internal/pqueue"
-	"github.com/saweima12/delaywheel/internal/shardmap"
+	"github.com/admpub/delaywheel/internal/pqueue"
+	"github.com/admpub/delaywheel/internal/shardmap"
 )
 
 type StopFunc func(stopCtx *StopCtx) error

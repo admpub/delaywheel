@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/saweima12/delaywheel/internal/shardmap"
+	"github.com/admpub/delaywheel/internal/shardmap"
 )
 
 type ShardMapInterface[K comparable, V any] interface {

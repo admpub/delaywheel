@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/saweima12/delaywheel/internal/pqueue"
+	"github.com/admpub/delaywheel/internal/pqueue"
 )
 
 type TestDelayerItem struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/saweima12/delaywheel/internal/pqueue"
+	"github.com/admpub/delaywheel/internal/pqueue"
 )
 
 type TestItem struct {

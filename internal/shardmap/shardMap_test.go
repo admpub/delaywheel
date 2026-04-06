@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/saweima12/delaywheel/internal/shardmap"
+	"github.com/admpub/delaywheel/internal/shardmap"
 )
 
 type TestKeyItem struct {

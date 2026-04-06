@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/saweima12/delaywheel/internal/list"
+	"github.com/admpub/delaywheel/internal/list"
 )
 
 type bucket struct {
