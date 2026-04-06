@@ -292,6 +292,11 @@ func (de *DelayWheel) addOrRun(task *Task) {
 			go task.Execute()
 			return
 		}
+		defer func() {
+			if e := recover(); e != nil {
+				de.logger.Error("%v", e)
+			}
+		}()
 		de.pendingTaskCh <- task.Execute
 	}
 }
